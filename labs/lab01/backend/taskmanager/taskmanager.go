@@ -104,5 +104,6 @@ func (tm *TaskManager) ListTasks(filterDone *bool) []Task {
 			result = append(result, task)
 		}
 	}
+
 	return result
 }
